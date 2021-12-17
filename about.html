@@ -3,10 +3,11 @@
     <head>
         <title>The Kerwin Website | About Page</title>
         <meta name="description" content="This is the description to the Kerwin Website">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -15,33 +16,35 @@
                 </ul>
             </nav>
             <hr>
-            <h1>The Kerwin Site</h1>
+            <h1 class="sitename sitename-large">The Kerwin Site</h1>
         </header>
-        <section>
-            <h2>ABOUT ME</h2>
+        <section class="content-section container">
+            <h2 class="section-header">ABOUT ME</h2>
+            <img class="about-me-image" src="images/me.png">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <img src="images/me.png" width="200" height="200">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </section>
-        <footer>
-            <h3>The kerwin website footer</h3>
-            <ul>
-                <li>
-                    <a href="https://github.com/kmayorga07/website" target="_blank">
-                        <img src="images/github64.png" width="20" height="20">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="images/insta.png" width="20" height="20">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="images/facebook72.png" width="20" height="20">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="sitename">The kerwin website footer</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://github.com/kmayorga07/website" target="_blank">
+                            <img src="images/github64.png" width="20" height="20">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="images/insta.png" width="20" height="20">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="images/facebook72.png" width="20" height="20">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
